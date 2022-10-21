@@ -183,13 +183,6 @@ Com isso temos o montante total de vendas de todas as lojas para as próximas 6 
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_7.png)
 
-| Imóveis dispóniveis | Sugestões para compra | Investimento | Retorno | Lucro |
-|:----------------------:|:--------------------:|:-------------:|:--------:|:--------:|
-| 21,461 | 10,498 | $5,656,988,504.00 | $6,622,652,682.20 | $965,664,178.2 |
-
-
-
-
 ##  Conclusão
 
 Neste projeto foram selecionados imóveis para compra e sugeridos preços de revenda. Também foram testadas hipóteses para entender melhor o comportamento dos preços e o resultado foi entregue para o CEO. A lista de sugestões, assim como os testes dos <i>insights</i> acima descritos, estão disponíveis online em [House rocket insight report](https://house-rocket-insight-report.herokuapp.com/) para serem acessados pelo CEO ou qualquer outro membro da empresa que venha a quem as informações interessem.
@@ -207,7 +200,7 @@ Caso tenha interrese no processo completo de tratamnto e análise de dados, pode
 <li>Testar mais hypotheses;</li>
 <li>Aplicar bayesian search no fine tuning;</li>
 <li>Testar outros algoritmos de machine learning.</li>
-
+</ul>
 
 ## Ferramentas utilizadas
 
