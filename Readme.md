@@ -128,7 +128,7 @@ A divisão dos passos utilizados no projeto foi:
 
 <h3><strong>Lojas com competidores com até 1000 metros de distância representam 33,26 % das vendas</strong> </h3>
 
-![](https://github.com/lavinomenezes/Rossmann_store_sales_project/blob/main/images/Screenshot_2.png)
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_2.png)
 
 Com esse número diminuindo conforme a distância aumenta, ou seja, quanto mais perto competidores maiores são as vendas.
 
@@ -143,17 +143,30 @@ Esse fenômeno pode ser causado por dois principais motivos:
 
 <h3><strong>Lojas com mais promoções consecutivas vendem menos</strong></h3>
 
-![](https://github.com/lavinomenezes/Rossmann_store_sales_project/blob/main/images/Screenshot_1.png)
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_1.png)
 
 Provavelmente ocorre pelos mesmo motivos da hipótese anterior.
 
-
-<h3><strong>Imóveis em más condições são mais baratos que aqueles em boas condições</strong></h3>
-
-Imóveis em más condições são em média 66.64 % mais baratos em comparação àqueles em boas condições, então podem ser adquiridos com um baixo investimento e reformados para revenda mantendo um bom lucro.
-
-
 <i>Todas as hipóteses testadas podem ser vistas no [notebook](https://github.com/lavinomenezes/House_rocket_insight_project/blob/main/notebooks/House_rocket_notebook.ipynb) para ver a descrição total, ou um breve resumo em [Hipóteses](https://github.com/lavinomenezes/House_rocket_insight_project/blob/main/Hipoteses.md)</i>
+
+## Performance do modelo de Machine learning 
+
+Em todos os casos o método de Cross-validation foi aplicado para generalizar os resultados de performance evitando que um modelo tenha melhor resultado por coincidência.
+
+Para este projeto as métricas para avaliação foram:
+<ul>
+<li>MAE (Mean absolute error);</li>
+<li>MAPE (Mean absolute Percentage error);</li>
+<li>RMSE (Root mean square erro).</li>
+</ul>
+Os modelos que obtiveram melhores resultados, como será mostrado mais a frente, foi a Random forest mas para fins de estudos,e o arquivo do modelo treinado ser menor, seguiremos com o XGboost.
+
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_3.png)
+
+Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_4.png)
+
+## Performance de previsão
 
 ## Resultados financeiros
 
