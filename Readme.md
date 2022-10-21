@@ -164,9 +164,12 @@ Os modelos que obtiveram melhores resultados, como será mostrado mais a frente,
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_3.png)
 
 Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
+
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_4.png)
 
 ## Performance de previsão
+
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_5.png)
 
 ## Resultados financeiros
 
