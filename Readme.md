@@ -171,12 +171,17 @@ Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relaç
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_5.png)
 
+Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar assim como o erro de previsão e a taxa de erro. neles é possível ver que na média o modelo apresenta boa previsão, mais em contrapartida também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. esses é um dos pontos que tem que ser melhorados num próximo ciclo do projeto.
+
 ## Resultados financeiros
 
+Com o modelo em produção é possível obter os valores de vendas de cada loja, incluindo as possíveis flutuações para melhor e pior caso
 
-Existe um total de 21.461 imóveis disponíveis para compra, de cujo montante 10.498 foram sugeridos para compra. A tabela abaixo descreve os valores resultantes da análise.
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_6.png)
 
+Com isso temos o montante total de vendas de todas as lojas para as próximas 6 semanas.
 
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_7.png)
 
 | Imóveis dispóniveis | Sugestões para compra | Investimento | Retorno | Lucro |
 |:----------------------:|:--------------------:|:-------------:|:--------:|:--------:|
@@ -199,13 +204,9 @@ Caso tenha interrese no processo completo de tratamnto e análise de dados, pode
 ##  Próximos passos
 
 <ul>
-<li>Aumentar a quantidade de informações relevantes sobre os imóveis;
-</li>
-<li>Explorar mais a fundo as hipóteses promissoras; 
-</li>
-<li>Testar novas hipóteses;</li>
-<li>Explorar modelos de <i>machine learning</i> para prever o comportamento dos preços dos imóveis</li>
-</ul>
+<li>Testar mais hypotheses;</li>
+<li>Aplicar bayesian search no fine tuning;</li>
+<li>Testar outros algoritmos de machine learning.</li>
 
 
 ## Ferramentas utilizadas
@@ -213,10 +214,14 @@ Caso tenha interrese no processo completo de tratamnto e análise de dados, pode
 <ul>
 <li>Jupyter notebook</li>
     <li>Pycharm communit</li>
+        <li>Git</li>
 <li>Python</li>
 <li>Pandas</li>
+    <li>Numpy</li>
+    <li>Sklearn</li>
     <li>Seaborn</li>
-<li>Streamlit</li>
+    <li>XGBoost</li>
+<li>Flasck</li>
     <li>Heroku</li>
-    <li>Git</li>
+
 </ul>
