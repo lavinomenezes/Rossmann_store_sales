@@ -11,6 +11,5 @@
 | H9: Lojas que abrem nos primeiros 6 meses deveriam vender mais | Verdadeiro | Lojas no primeiro semestre vendem mais |
 | H10: Lojas deveriam vender mais depois do dia 10 de cada mês | Verdadeiro | Lojas vendem mais depois do dia 10 |
 | H11: Lojas que abrem nos finais de semanas deveriam vender mais | Falso | Lojas vendem menos nos fim de semanas |
-| H12: lojas vendem mais no inverno | Falso | Lojas vendem mais na primavera
-obs: como o dataset só vai até 2015-07, “fall” tem uma queda de vendas pelo desbalanceamento. |
+| H12: lojas vendem mais no inverno | Falso | Lojas vendem mais na primavera. obs: como o dataset só vai até 2015-07, “fall” tem uma queda de vendas pelo desbalanceamento. |
 | H13: Lojas vendem menos durante os feriados escolares  |  Verdadeiro | Lojas vendem menos durante os feriados escolares  |
