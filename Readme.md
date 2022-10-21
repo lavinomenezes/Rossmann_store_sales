@@ -147,7 +147,7 @@ Esse fenômeno pode ser causado por dois principais motivos:
 
 Provavelmente ocorre pelos mesmo motivos da hipótese anterior.
 
-<i>Todas as hipóteses testadas podem ser vistas no [notebook](https://github.com/lavinomenezes/House_rocket_insight_project/blob/main/notebooks/House_rocket_notebook.ipynb) para ver a descrição total, ou um breve resumo em [Hipóteses](https://github.com/lavinomenezes/House_rocket_insight_project/blob/main/Hipoteses.md)</i>
+<i>Todas as hipóteses testadas podem ser vistas no [notebook](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/Notebooks/Ds_em_producao_03_exploratory_data_analysis.ipynb) para ver a descrição total, ou um breve resumo em [Hipóteses](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/Hipoteses.md)</i>
 
 ## Performance do modelo de Machine learning 
 
