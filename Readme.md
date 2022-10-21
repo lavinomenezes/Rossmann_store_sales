@@ -159,7 +159,7 @@ Para este projeto as métricas para avaliação foram:
 <li>MAPE (Mean absolute Percentage error);</li>
 <li>RMSE (Root mean square erro).</li>
 </ul>
-Os modelos que obtiveram melhores resultados, como será mostrado mais a frente, foi a Random forest mas para fins de estudos,e o arquivo do modelo treinado ser menor, seguiremos com o XGboost.
+Os modelos que obtiveram melhores resultados, como será mostrado mais a frente, foi a Random forest mas para fins de estudos, e o arquivo do modelo treinado ser menor, seguiremos com o XGboost.
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_3.png)
 
