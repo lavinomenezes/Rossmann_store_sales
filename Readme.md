@@ -185,12 +185,7 @@ Com isso temos o montante total de vendas de todas as lojas para as próximas 6 
 
 ##  Conclusão
 
-Neste projeto foram selecionados imóveis para compra e sugeridos preços de revenda. Também foram testadas hipóteses para entender melhor o comportamento dos preços e o resultado foi entregue para o CEO. A lista de sugestões, assim como os testes dos <i>insights</i> acima descritos, estão disponíveis online em [House rocket insight report](https://house-rocket-insight-report.herokuapp.com/) para serem acessados pelo CEO ou qualquer outro membro da empresa que venha a quem as informações interessem.
-
-
-Caso tenha interrese no processo completo de tratamnto e análise de dados, pode ser encontrado em: [Python do zero ao DS](https://github.com/lavinomenezes/Python_do_zero_ao_DS)
-
-
+Neste projeto foi feita uma previsão de vendas das próximas seis semanas de lojas selecionadas. Também foram testadas hipóteses para entender melhor o comportamento das vendas e o resultado foi entregue para o CFO. As previsões das vendas estão disponíveis no aplicativo de mensagens Telegram no canal @Rossmann_predict_sales_bot para serem acessados pelo CFO há qualquer momento. 
 
 
 
