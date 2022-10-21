@@ -171,7 +171,7 @@ Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relaç
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_5.png)
 
-Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar assim como o erro de previsão e a taxa de erro. neles é possível ver que na média o modelo apresenta boa previsão, mais em contrapartida também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. esses é um dos pontos que tem que ser melhorados num próximo ciclo do projeto.
+Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar, o erro de previsão e a taxa de erro. neles é possível ver que, em média, o modelo apresenta boa previsão, mas em contrapartida também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. esses é um dos pontos que tem que ser melhorados num próximo ciclo do projeto.
 
 ## Resultados financeiros
 
@@ -195,6 +195,7 @@ Neste projeto foi feita uma previsão de vendas das próximas seis semanas de lo
 <li>Testar mais hypotheses;</li>
 <li>Aplicar bayesian search no fine tuning;</li>
 <li>Testar outros algoritmos de machine learning.</li>
+<li>Melhorar a performace do modelo em lojas que apresentaram erro acima da média</li>
 </ul>
 
 ## Ferramentas utilizadas
