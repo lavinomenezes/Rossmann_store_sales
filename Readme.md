@@ -189,7 +189,7 @@ Neste projeto foi feita uma previsão de vendas das próximas seis semanas de lo
 
 **telegram bot**
 
-<img src="https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/telegram_bot.jpeg" width="200" />
+<img src="https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/telegram_bot.jpeg" width="300" />
 
 ##  Próximos passos
 
