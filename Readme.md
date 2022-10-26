@@ -188,7 +188,8 @@ Com isso temos o montante total de vendas de todas as lojas para as próximas 6 
 Neste projeto foi feita uma previsão de vendas das próximas seis semanas de lojas selecionadas. Também foram testadas hipóteses para entender melhor o comportamento das vendas e o resultado foi entregue para o CFO. As previsões das vendas estão disponíveis no aplicativo de mensagens Telegram no canal [Rossmann_predict_sales_bot](https://t.me/Rossmann_predict_sales_bot) para serem acessados pelo CFO há qualquer momento. 
 
 **telegram bot**
-![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/telegram_bot.jpeg)
+
+<img src="https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/telegram_bot.jpeg" width="200" />
 
 ##  Próximos passos
 
