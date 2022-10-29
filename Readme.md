@@ -188,11 +188,11 @@ Nos gráficos acima é possível o comportamento da previsão em comparação ao
 
 Com o modelo em produção é possível obter os valores de vendas de cada loja, incluindo as possíveis flutuações para melhor e pior caso
 
-|**Loja**|**Previsão de vendas|**Melhor cenário**|**Pior cenário**|**MAE**|**MAPE**|
+|**Loja**|**Previsão de vendas**|**Melhor cenário**|**Pior cenário**|**MAE**|**MAPE**|
 |:------:|:------------------:|:----------------:|:--------------:|:-----:|:------:|
 |132|242412.5625|243484.0242|241341.1007|1071.4617|0.1401|
 |75|230443.890625|230957.3021|229930.4791|513.4114|0.0783|
-|458|273112.50| 274157.0225|272067.9774|1044.5225|0.1289|
+|458|273112.5000| 274157.0225|272067.9774|1044.5225|0.1289|
 |34|297427.5625|297992.9834| 296862.14156|565.4209|0.0670|
 |998|168223.2187|168712.8448|167733.5926|489.6260|0.1088|
 
