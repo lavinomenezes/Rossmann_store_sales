@@ -3,7 +3,9 @@
 
 ## Problema de negócio
 
-Rossmann é uma rede de drogarias com mais de 50 anos de atuação e que conta com mais de 4000 lojas espalhadas em 7 países europeus. Para planejar e custear o orçamento para  reforma dessas lojas o CFO requisitou para a equipe de dados uma previsão de faturamento de cada loja nas próximas 6 semanas.Será entregue uma lista contendo a previsão de vendas de cada uma das lojas no conjunto de dados, esses valores também poderão ser acessados por um chatbot no aplicativo de mensagens Telegram.
+Rossmann é uma rede de drogarias com mais de 50 anos de atuação e que conta com mais de 4000 lojas espalhadas em 7 países europeus. Para planejar e custear o orçamento para  reforma dessas lojas o CFO requisitou para a equipe de dados uma previsão de faturamento de cada loja nas próximas 6 semanas. Será entregue uma lista contendo a previsão de vendas de cada uma das lojas no conjunto de dados, esses valores também poderão ser acessados por um chatbot no aplicativo de mensagens Telegram.
+
+O dataset com as informações foi disponibilizado pela própria empresa no [kaggle](https://www.kaggle.com/competitions/rossmann-store-sales), que contá com informações de 1115 lojas.
 
 
 
@@ -102,7 +104,7 @@ A divisão dos passos utilizados no projeto foi:
 <ul>
 <li>Aplicando a normalização na variável target “sales” para aproximar sua distribuição da normal;</li>
 <li>Re-escala dos atributos numéricos para não força o modelo a trabalhar com valores muito altos;</li>
-<li>Encoding das variáveis categorias. por fim para atributos cíclicos como dia e dia da semana entre outros apliquei transformação de natureza cíclica. </li>
+<li>Encoding das variáveis categorias. por fim para atributos cíclicos como dia e dia da semana entre outros foi aplicado transformação de natureza cíclica. </li>
 </ul>
 </li>
 <li>
