@@ -62,7 +62,7 @@ A divisão dos passos utilizados no projeto foi:
 <li><strong>Entendimento de negócio:</strong> Entender um pouco mais sobre a rede de lojas Rossmann e discutir o que motivou a requisição da previsão de vendas, assim, entendendo melhor o problema para apresentar a solução mais eficiente no menor tempo possível.
 </li>
 <li>
-<strong>Coleta de dados:</strong> Todos os dados estavam disponíveis na plataforma kaggle, sendo esta disponibilizada pela própria empresa.
+<strong>Coleta de dados:</strong> Todos os dados estavam disponíveis na plataforma [kaggle](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction?select=train.csv), sendo esta disponibilizada pela própria empresa.
 </li>
 <li>
 <strong>Análise descritiva:</strong> uma breve análise dos dados para adquirir familiaridade com os mesmo, incluindo o tamanho do data frame que estamos lidando assim como os tipo de dados que vamos processar, aplicando estatística descritiva sobre as informações para conhecer o comportamento dela.   
@@ -173,7 +173,6 @@ Os modelos que obtiveram melhores resultados, como será mostrado mais a frente,
 
 Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
 
-&nbsp;
 |**Model name**|**MAE**|**MAPE**|**RMSE**|
 |:------------:|:-----:|:------:|:------:|
 |XGBoost Regressor|759.25335|0.1156|1083.2738|
