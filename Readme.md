@@ -163,7 +163,7 @@ Os modelos que obtiveram melhores resultados, como será mostrado mais a frente,
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_3.png)
 |**Model name**|**MAE CROSS_VAL**|**MAPE CROSS_VAL**|**RMSE CROSS_VAL**|
-|:------------:|:---------------:|:----------------:|:----------------:|
+|-------------:|:---------------:|:----------------:|:----------------:|
 |Linear Regression Cross_val|1927.09 +/- 95.13|0.30 +/- 0.02|2724.09 +/- 178.86|
 |Lasso Cross_val|1925.39 +/- 98.72|0.30 +/- 0.01|2728.38 +/- 183.3|
 |Random forest Regressor Cross_val|740.40 +/- 124.21|0.11 +/- 0.02|1108.45 +/- 185.8|
