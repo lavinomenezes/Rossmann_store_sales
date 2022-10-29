@@ -172,6 +172,7 @@ Os modelos que obtiveram melhores resultados, como será mostrado mais a frente,
 |Lasso Cross_val|1925.39 +/- 98.72|0.30 +/- 0.01|2728.38 +/- 183.60|
 |Random forest Regressor Cross_val|740.40 +/- 124.21|0.11 +/- 0.02|1108.45 +/- 185.80|
 |XGBoost Regressor Cross_val|6786.51 +/- 318.43|0.95 +/- 0.0|7410.61 +/- 364.41|
+
 &nbsp;
 
 Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
