@@ -103,7 +103,7 @@ A divisão dos passos utilizados no projeto foi:
 <strong>Análise exploratória de dados:</strong> Criar e validar hipóteses de negócio para melhor entendimento do comportamento dos dados em relação a variável alvo e como elas se influenciam, e definir quais atributos são importantes para o modelo.
 </li>
 <li>
-<strong>Preparação dos dados:</strong> Manipular os dados para se adequarem melhor num modelo de machine learning, 
+<strong>Preparação dos dados:</strong> Manipular os dados para se adequarem melhor num modelo de machine learning. 
 <ul>
 <li>Aplicando a normalização na variável target “sales” para aproximar sua distribuição da normal;</li>
 <li>Re-escala dos atributos numéricos para não força o modelo a trabalhar com valores muito altos;</li>
