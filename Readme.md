@@ -169,11 +169,11 @@ Os modelos que obtiveram melhores resultados, como será mostrado mais a frente,
 |Lasso Cross_val|1925.39 +/- 98.72|0.30 +/- 0.01|2728.38 +/- 183.60|
 |Random forest Regressor Cross_val|740.40 +/- 124.21|0.11 +/- 0.02|1108.45 +/- 185.80|
 |XGBoost Regressor Cross_val|6786.51 +/- 318.43|0.95 +/- 0.0|7410.61 +/- 364.41|
-
+&nbsp;
 
 Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
 
-
+&nbsp;
 |**Model name**|**MAE**|**MAPE**|**RMSE**|
 |:------------:|:-----:|:------:|:------:|
 |XGBoost Regressor|759.25335|0.1156|1083.2738|
@@ -188,6 +188,13 @@ Nos gráficos acima é possível o comportamento da previsão em comparação ao
 
 Com o modelo em produção é possível obter os valores de vendas de cada loja, incluindo as possíveis flutuações para melhor e pior caso
 
+|**Loja**|**Previsão de vendas|**Melhor cenário**|**Pior cenário**|**MAE**|**MAPE**|
+|:------:|:------------------:|:----------------:|:--------------:|:-----:|:------:|
+|132|242412.5625|243484.0242|241341.1007|1071.4617|0.1401|
+|75|230443.890625|230957.3021|229930.4791|513.4114|0.0783|
+|458|273112.50| 274157.0225|272067.9774|1044.5225|0.1289|
+|34|297427.5625|297992.9834| 296862.14156|565.4209|0.0670|
+|998|168223.2187|168712.8448|167733.5926|489.6260|0.1088|
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_6.png)
 
 Com isso temos o montante total de vendas de todas as lojas para as próximas 6 semanas.
