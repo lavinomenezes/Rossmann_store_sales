@@ -161,6 +161,7 @@ Para este projeto as métricas para avaliação foram:
 </ul>
 Os modelos que obtiveram melhores resultados, como será mostrado mais a frente, foi a Random forest mas para fins de estudos, e o arquivo do modelo treinado ser menor, seguiremos com o XGboost.
 
+
 |**Model name**|**MAE CROSS_VAL**|**MAPE CROSS_VAL**|**RMSE CROSS_VAL**|
 |-------------:|:---------------:|:----------------:|:----------------:|
 |Linear Regression Cross_val|1927.09 +/- 95.13|0.30 +/- 0.02|2724.09 +/- 178.86|
