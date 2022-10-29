@@ -186,7 +186,7 @@ Nos gráficos acima é possível o comportamento da previsão em comparação ao
 
 ## Resultados financeiros
 
-Com o modelo em produção é possível obter os valores de vendas de cada loja, incluindo as possíveis flutuações para melhor e pior caso
+Com o modelo em produção é possível obter os valores de vendas de cada loja, incluindo as possíveis flutuações para melhor e pior. Como no exemplo a seguir.
 
 |**Loja**|**Previsão de vendas**|**Melhor cenário**|**Pior cenário**|**MAE**|**MAPE**|
 |:------:|:------------------:|:----------------:|:--------------:|:-----:|:------:|
