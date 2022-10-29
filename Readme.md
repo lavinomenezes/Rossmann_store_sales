@@ -58,6 +58,9 @@ Previsão de vendas para as próximas 6 semanas de cada loja para que o valor pr
 
 Neste projeto foi aplicado o método CRISP-DM (Cross-Industry Standard Process for Data Mining) adaptado para os processos de ciência de dados que se tornou o CRIS-DS.
 
+![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/crisp.png)
+Modelo crisp-dm
+
 A divisão dos passos utilizados no projeto foi:
 
 <ol>
