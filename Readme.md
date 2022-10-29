@@ -167,6 +167,7 @@ Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relaç
 
 
 |**Model name**|**MAE**|**MAPE**|**RMSE**|
+|:------------:|:-----:|:------:|:------:|
 |XGBoost Regressor|759.253|0.1156|1083.27|
 
 ## Performance de previsão
