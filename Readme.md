@@ -165,7 +165,9 @@ Os modelos que obtiveram melhores resultados, como será mostrado mais a frente,
 
 Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
 
-![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_4.png)
+
+|**Model name**|**MAE**|**MAPE**|**RMSE**|
+|XGBoost Regressor|759.253|0.1156|1083.27|
 
 ## Performance de previsão
 
