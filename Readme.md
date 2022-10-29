@@ -182,6 +182,9 @@ Com o modelo em produção é possível obter os valores de vendas de cada loja,
 Com isso temos o montante total de vendas de todas as lojas para as próximas 6 semanas.
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_7.png)
+|**Previsão de vendas**|**Melhor cenário**|**Pior cenário**|
+|:--------------------:|:----------------:|:--------------:|
+|R$ 288,028,928.00|R$ 287,179,218.78|R$ 288,878,591.11|
 
 ##  Conclusão
 
