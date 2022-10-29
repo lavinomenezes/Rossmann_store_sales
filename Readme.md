@@ -196,7 +196,6 @@ Com o modelo em produção é possível obter os valores de vendas de cada loja,
 |34|297427.5625|297992.9834| 296862.14156|565.4209|0.0670|
 |998|168223.2187|168712.8448|167733.5926|489.6260|0.1088|
 
-![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_6.png)
 
 Com isso temos o montante total de vendas de todas as lojas para as próximas 6 semanas.
 
