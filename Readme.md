@@ -3,7 +3,7 @@
 
 ## Problema de negócio
 
-Rossmann é uma rede de drogarias com mais de 50 anos de atuação e que conta com mais de 4000 lojas espalhadas em 7 países europeus. Para planejar e custear o orçamento para uma futura reforma de algumas dessas lojas o CFO requisitou para a equipe de dados uma previsão de faturamento de cada loja para as próximas 6 semanas. Será entregue uma lista contendo a previsão de vendas de cada uma das lojas no conjunto de dados, esses valores também poderão ser acessados por um chatbot no aplicativo de mensagens Telegram.
+Rossmann é uma rede de drogarias com mais de 50 anos de atuação e que conta com mais de 4000 lojas espalhadas em sete países europeus. Para planejar e custear o orçamento para uma futura reforma de algumas dessas lojas o CFO requisitou para a equipe de dados uma previsão de faturamento de cada loja para as próximas seis semanas. Será entregue uma lista contendo a previsão de vendas de cada uma das lojas no conjunto de dados, esses valores também poderão ser acessados por um chatbot no aplicativo de mensagens Telegram.
 
 O dataset com as informações foi disponibilizado pela própria empresa no [kaggle](https://www.kaggle.com/competitions/rossmann-store-sales), que contá com informações de 1115 lojas.
 
