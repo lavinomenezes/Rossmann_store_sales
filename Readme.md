@@ -241,7 +241,7 @@ Neste projeto foi feita uma previsão de vendas das próximas seis semanas de lo
     <li>Sklearn</li>
     <li>Seaborn</li>
     <li>XGBoost</li>
-<li>Flasck</li>
+<li>Flask</li>
     <li>Heroku</li>
 
 </ul>
