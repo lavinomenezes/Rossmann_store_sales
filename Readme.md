@@ -123,7 +123,7 @@ A divisão dos passos utilizados no projeto foi:
 </ul>
 </li>
 <li>
-<strong>Fine tuning:</strong> após a escolha do modelo foi aplicado o random search para encontrar os melhores parâmetros do modelo de machine learning.
+<strong>Fine tuning:</strong> Após a escolha do modelo foi aplicado o random search para encontrar os melhores parâmetros do modelo de machine learning.
 </li>
 <li>
     <strong>Deploy:</strong> Nesta última etapa, já tendo aplicado o modelo final no dataset e observado os valores gerados, o modelo foi colocado em produção online na plataforma heroku, utilizando uma API desenvolvido com a biblioteca Flask para que o CFO da empresa possa ter a qualquer momento os valores de previsão de cada loja por meio de um bot no aplicativo de mensagens Telegram.
@@ -188,7 +188,9 @@ Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relaç
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_5.png)
 
-Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar, o erro de previsão e a taxa de erro. neles é possível ver que, em média, o modelo apresenta boa previsão, mas em contrapartida também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. esses é um dos pontos que tem que ser melhorados num próximo ciclo do projeto.
+Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar, o erro de previsão e a taxa de erro. Neles é possível ver que, em média, o modelo apresenta boa previsão, mas em contrapartida também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. 
+
+Esses é um dos pontos que tem que ser melhorados num próximo ciclo do projeto.
 
 ## Resultados financeiros
 
