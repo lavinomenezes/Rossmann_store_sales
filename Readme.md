@@ -2,9 +2,9 @@
 
 
 ## Problema de negócio
-
+<div style="text-align: justify">
 Rossmann é uma rede de drogarias com mais de 50 anos de atuação e que conta com mais de 4000 lojas espalhadas em 7 países europeus. Para planejar e custear o orçamento para uma futura reforma de algumas dessas lojas o CFO requisitou para a equipe de dados uma previsão de faturamento de cada loja para as próximas 6 semanas. Será entregue uma lista contendo a previsão de vendas de cada uma das lojas no conjunto de dados, esses valores também poderão ser acessados por um chatbot no aplicativo de mensagens Telegram.
-
+</div>
 O dataset com as informações foi disponibilizado pela própria empresa no [kaggle](https://www.kaggle.com/competitions/rossmann-store-sales), que contá com informações de 1115 lojas.
 
 
@@ -77,7 +77,7 @@ A divisão dos passos utilizados no projeto foi:
 <strong>Dados faltantes:</strong> Com a análise descritiva encontrar e preencher dados de colunas que estejam em falta, tomando essas decisões baseados na importância da informação e derivando alguns dados de outras colunas.    
 </li>
 <li>
-<strong>Feature engineering:</strong> criação de novos atributos derivados dos que já existiam para ajudar a ter uma melhor compreensão do comportamento dos dados e para melhorar o desempenho dos modelos de machine learning. os atributos criados foram:
+<strong>Feature engineering:</strong> criação de novos atributos derivados dos que já existiam para ajudar a ter uma melhor compreensão do comportamento dos dados e para melhorar o desempenho dos modelos de machine learning. Os atributos criados foram:
     <ul>
     <li>Year;</li>
     <li>month;</li>
@@ -95,8 +95,8 @@ A divisão dos passos utilizados no projeto foi:
 <li>
 <strong>Filtragem de dados:</strong> Remoção de colunas que não tem impacto no modelo e as que foram criadas como auxiliares no processo de feature engineering. Remoção de linhas que não contribuem com o modelo. Sendo eles:
 <ul>
-        <li>Colunas removidas: 'customers','open','promo_interval', 'month_map'</li>
-        <li>Linhas removidas: Lojas que não estão abertas (open==0)  e aquelas que apresentaram vendas no valor de zero ( sales<0) </li>
+        <li>Colunas removidas: 'customers','open','promo_interval', 'month_map';</li>
+        <li>Linhas removidas: Lojas que não estão abertas (open==0)  e aquelas que apresentaram vendas no valor de zero ( sales<0). </li>
 </ul>
 </li>
 <li>
@@ -165,7 +165,7 @@ Para este projeto as métricas para avaliação foram:
 <li>MAPE (Mean absolute Percentage error);</li>
 <li>RMSE (Root mean square erro).</li>
 </ul>
-Os modelos que obtiveram melhores resultados, como será mostrado mais a frente, foi a Random forest mas para fins de estudos, e o arquivo do modelo treinado ser menor, seguiremos com o XGboost.
+O modelo que obtive o melhor resulta foi a Random forest, mas, para fins de estudos e pelo fato do arquivo do modelo treinado ser menor, seguiremos com o XGboost.
 
 &nbsp;
 
