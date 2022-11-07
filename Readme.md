@@ -71,15 +71,15 @@ A divisão dos passos utilizados no projeto foi:
 <strong>Coleta de dados:</strong> Todos os dados estavam disponíveis na plataforma, sendo esta disponibilizada pela própria empresa.
 </li>
 <li>
-<strong>Análise descritiva:</strong> uma breve análise dos dados para adquirir familiaridade com os mesmo, incluindo o tamanho do data frame que estamos lidando assim como os tipo de dados que vamos processar, aplicando estatística descritiva sobre as informações para conhecer o comportamento dela.   
+<strong>Análise descritiva:</strong> Uma breve análise dos dados para adquirir familiaridade com os mesmo, incluindo o tamanho do data frame que estamos lidando assim como os tipo de dados que vamos processar, aplicando estatística descritiva sobre as informações para conhecer o comportamento dela.   
 </li>
 <li>
 <strong>Dados faltantes:</strong> Com a análise descritiva encontrar e preencher dados de colunas que estejam em falta, tomando essas decisões baseados na importância da informação e derivando alguns dados de outras colunas.    
 </li>
 <li>
-<strong>Feature engineering:</strong> criação de novos atributos derivados dos que já existiam para ajudar a ter uma melhor compreensão do comportamento dos dados e para melhorar o desempenho dos modelos de machine learning. Os atributos criados foram:
+<strong>Feature engineering:</strong> Criação de novos atributos derivados dos que já existiam para ajudar a ter uma melhor compreensão do comportamento dos dados e para melhorar o desempenho dos modelos de machine learning. Os atributos criados foram:
     <ul>
-    <li>Year;</li>
+    <li>year;</li>
     <li>month;</li>
     <li>day;</li>
     <li>week_of_year;</li>
@@ -126,7 +126,7 @@ A divisão dos passos utilizados no projeto foi:
 <strong>Fine tuning:</strong> Após a escolha do modelo foi aplicado o random search para encontrar os melhores parâmetros do modelo de machine learning.
 </li>
 <li>
-    <strong>Deploy:</strong> Nesta última etapa, já tendo aplicado o modelo final no dataset e observado os valores gerados, o modelo foi colocado em produção online na plataforma heroku, utilizando uma API desenvolvido com a biblioteca Flask para que o CFO da empresa possa ter a qualquer momento os valores de previsão de cada loja por meio de um bot no aplicativo de mensagens Telegram.
+    <strong>Deploy:</strong> Nesta última etapa, já tendo aplicado o modelo final no dataset de teste e observado os valores gerados, o modelo foi colocado em produção online na plataforma heroku, utilizando uma API desenvolvido com a biblioteca Flask para que o CFO da empresa possa ter a qualquer momento os valores de previsão de cada loja por meio de um bot no aplicativo de mensagens Telegram.
 </li>
 </ol>
 
@@ -169,7 +169,7 @@ O modelo que obtive o melhor resulta foi a Random forest, mas, para fins de estu
 
 &nbsp;
 
-|**Model name**|**MAE CROSS_VAL**|**MAPE CROSS_VAL**|**RMSE CROSS_VAL**|
+|**Modelo**|**MAE CROSS_VAL**|**MAPE CROSS_VAL**|**RMSE CROSS_VAL**|
 |-------------:|:---------------:|:----------------:|:----------------:|
 |Linear Regression Cross_val|1927.09 +/- 95.13|0.30 +/- 0.02|2724.09 +/- 178.86|
 |Lasso Cross_val|1925.39 +/- 98.72|0.30 +/- 0.01|2728.38 +/- 183.60|
@@ -180,7 +180,7 @@ O modelo que obtive o melhor resulta foi a Random forest, mas, para fins de estu
 
 Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relação ao inicial, após a mudança nos parâmetros as métricas do modelo já aplicadas no dataset de teste ficam:
 
-|**Model name**|**MAE**|**MAPE**|**RMSE**|
+|**Modelo**|**MAE**|**MAPE**|**RMSE**|
 |:------------:|:-----:|:------:|:------:|
 |XGBoost Regressor|759.25335|0.1156|1083.2738|
 
@@ -188,7 +188,7 @@ Na etapa de fine tuning o XGboost apresentou uma melhora considerável em relaç
 
 ![](https://github.com/lavinomenezes/Rossmann_store_sales/blob/main/images/Screenshot_5.png)
 
-Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar, o erro de previsão e a taxa de erro. Neles é possível ver que, em média, o modelo apresenta boa previsão, mas em contrapartida também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. 
+Nos gráficos acima é possível o comportamento da previsão em comparação aos nossos dados de testes, onde temos o valor bruto para comparar, o erro de previsão e a taxa de erro. Neles é possível ver que, em média, o modelo apresenta boa previsão, mas em contrapartida, também apresenta valores muito discrepantes em algumas lojas o que pode ser prejudicial. 
 
 Esses é um dos pontos que tem que ser melhorados num próximo ciclo do projeto.
 
